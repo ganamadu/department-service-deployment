@@ -3,7 +3,7 @@ kind: ConfigMap
 
 metadata:
   name: department-config
-  namespace: department-dev
+  namespace: microservices-dev
 
 data:
   APP_NAME: "Department Service"

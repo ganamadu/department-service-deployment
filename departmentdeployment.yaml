@@ -3,7 +3,7 @@ kind: Deployment
 
 metadata:
   name: dept-service
-  namespace: department-dev
+  namespace: microservices-dev
 
 spec:
   replicas: 2

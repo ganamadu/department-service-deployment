@@ -3,7 +3,7 @@ kind: Service
 
 metadata:
   name: dept-service
-  namespace: department-dev
+  namespace: microservices-dev
 
 spec:
   selector:
@@ -12,6 +12,5 @@ spec:
   ports:
     - port: 80
       targetPort: 8082
-      nodePort: 30082
 
-  type: NodePort
+  type: ClusterIP
